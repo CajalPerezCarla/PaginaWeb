@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+    background-color: #faf6c5;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: #9dabfc;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding-left: 20px;
+}
+
+h1 {
+    font-family: 'Fira Sans';
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+    font-size: 15px;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #fff;
+    transition: 0.5s;
+    background: #5a65a6;
+}
+
+@media screen and (max-width:608px){
+    nav ul {
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        padding-left: 16px;
+    } 
+    nav ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        padding: 0;
+    }
+
+}
+
+aside{
+    background-color:#c0fcac;
+    padding-right: 10px ;
+    margin-bottom: 30px;
+    max-width: 352px;
+    box-shadow: 0 0 10px 0;
+}
+aside div h3 {
+    font-family: 'Fira Sans';
+    text-align: center;
+    text-decoration: underline;
+}
+aside .creator{
+    width: 95%;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+aside h4{
+    font-size: 14px;
+}
+aside .hotel{
+    font-size: 12px;
+}
+aside .hotel a:hover{
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3s;
+}
+aside .otrosenlaces{
+    color: black;
+}
+aside .hotel img{
+    width: 60px;
+    
+}
+aside .hotelesformigal{
+    width: 150px;
+}
+aside .organizadores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+aside .organizadores .organizador{
+    width: 30%;
+    
+}
+aside  .organizadores .organizador img{
+    width: 100%;
+    
+}
+aside .apoyadores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside .apoyadores .apoyador{
+    width: 30%;
+    padding: 3px;
+}
+aside h4{
+    padding-left: 8px;
+}
+aside .apoyadores .apoyador img{
+    width: 100%;
+}
+aside .ventaentradas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside .ventaentradas .vendedor{
+    width:150.6px ;
+    
+}
+aside .ventaentradas .vendedor img{
+    width: 100%;
+}
+aside .colaboladores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside .colaboladores .colaborador{
+    width: 30%;
+    padding: 3px;
+}
+aside .colaboladores .colaborador img{
+    width: 100%;
+}
+aside .medios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside .medios .medio{
+    width: 30%;
+    padding: 3px;
+}
+aside .medios .medio img{
+    width: 100%;
+}
+
+aside .reservar{
+    color:white;
+    padding: 5px;
+    background-color: #0b6346;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+}
+
+section {
+    
+    margin: 20px;
+    padding-bottom: 30px;
+}
+form{
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: #9dabfc;
+}
+form a {
+    color: black;
+    font-weight: bold;
+}
+form .datos{
+    padding: 10px;
+    color: darkgray;
+    border-radius: 4px;
+}
+fieldset{
+    border-color: #000000;
+}
+.coment {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+textarea{
+    max-width: 400px;
+}
+@media screen and (max-width:665px) {
+    .coment{
+        width: 300px;
+    }
+}
+@media screen and (max-width:562px){
+    .coment{
+        width: 230px;
+    }
+}
+.preguntaComenta{
+    text-align: center;
+}
+.cuadroEdad{
+    max-width: 300px;
+}
+
+.boton{
+    background-color: #5a65a6;
+    padding: 6px;
+    margin: 6px;
+    border-radius: 4px;
+    border: 1px solid black;
+    color: white;
+    font-weight: bold;
+}
+header {
+    background-color:#9dabfc;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 290%;
+}
+
+.allFooter{
+    background-color:#faf6c5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    
+}
+.rrss{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.allFooter p{
+    text-align: center;
+}
+.pie{
+    text-decoration: underline;
+}
+.rs{
+    padding: 2%;
+}
+.rs a img{
+    width: 30px;
+}
+.contactos{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contacto{
+    padding: 2%;
+    
+}
+.contacto a img{
+    width: 30px;
+   
+}
+
+nav {
+    grid-area: nav;
+}
+
+aside {
+    grid-area: aside;
+}
+
+section {
+    grid-area: section;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+main {
+
+    display: grid;
+    /* Genera una rejilla de 4 filas x 4 columnas */
+    grid-template-areas:
+        "header header header header header"
+        "nav nav nav nav nav"
+        "section section section section aside"
+        "footer footer footer footer footer";
+}

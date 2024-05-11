@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+body {
+    background-color: #faf6c5;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Fira Sans';
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 30px;
+}
+h2{
+    font-family: 'Fira Sans';
+    font-weight: bolder;
+}
+
+nav {
+    background-color: #9dabfc;
+    float: left;
+    list-style: none;
+    overflow: hidden;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    z-index: 100;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding-left: 20px;
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+}
+
+@media screen and (max-width:608px){
+    nav ul {
+        list-style: none;
+        overflow: hidden;
+        margin: 0;
+        padding-left: 16px;
+    } 
+    nav ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        padding: 0;
+    }
+
+}
+
+.enlace{
+
+    text-decoration:none;
+    font-weight: bolder;
+    color: #000000;
+}
+nav ul li a:hover {
+    color: #fff;
+    transition: 0.5s;
+    background: #5a65a6;
+}
+
+aside{
+    background-color:#c0fcac;
+    padding-right: 10px ;
+    margin-bottom: 30px;
+    max-width: 352px;
+    box-shadow: 0 0 10px 0;
+}
+aside div h3 {
+    font-family: 'Fira Sans';
+    text-align: center;
+    text-decoration: underline;
+}
+aside .creator{
+    width: 95%;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+aside h4{
+    font-size: 14px;
+}
+aside .hotel{
+    font-size: 12px;
+}
+aside .hotel a:hover{
+    color: #000000;
+    text-decoration: underline;
+    font-weight: bold;
+    transition: 0.3s;
+}
+aside .otrosenlaces{
+    color: black;
+}
+aside .hotel img{
+    width: 60px;
+    
+}
+aside .hotelesformigal{
+    width: 150px;
+}
+aside .organizadores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+aside .organizadores .organizador{
+    width: 30%;
+    
+}
+aside  .organizadores .organizador img{
+    width: 100%;
+    
+}
+aside .apoyadores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside .apoyadores .apoyador{
+    width: 30%;
+    padding: 3px;
+}
+aside h4{
+    padding-left: 8px;
+}
+aside .apoyadores .apoyador img{
+    width: 100%;
+}
+aside .ventaentradas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside .ventaentradas .vendedor{
+    width:150.6px ;
+    
+}
+aside .ventaentradas .vendedor img{
+    width: 100%;
+}
+aside .colaboladores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside .colaboladores .colaborador{
+    width: 30%;
+    padding: 3px;
+}
+aside .colaboladores .colaborador img{
+    width: 100%;
+}
+aside .medios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+aside .medios .medio{
+    width: 30%;
+    padding: 3px;
+}
+aside .medios .medio img{
+    width: 100%;
+}
+
+aside .reservar{
+    color:white;
+    padding: 5px;
+    background-color: #0b6346;
+    border-radius: 4px;
+    box-shadow: 0 0 10px black;
+    text-decoration: none;
+}
+
+section {
+    
+    margin: 20px;
+    padding-bottom: 30px;
+}
+
+header {
+    background-color: #9dabfc;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 290%;
+}
+.cantantes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+.descripcion{
+    font-size: 14px;
+}
+.comprarEntrada{
+    text-decoration: none;
+    padding: 8px;
+    background-color: #5a65a6 ;
+    color: white;
+    border: 2px solid #4957a6 ;
+    border-radius: 4px;
+}
+
+.price{
+    font-size: 25px;
+    margin:0;
+    padding-bottom: 8px;
+}
+
+.Sallent{
+    padding-left: 20px;
+}
+
+section .card{
+    background-color:  #FDDAA5;
+    width: 250px;
+    margin: 1em;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px  ;
+    text-align: center;
+}
+section .card img{
+    width: 150px;
+    border-radius: 8px;
+}
+
+.allFooter{
+    background-color:#faf6c5;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+}
+.rrss{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.allFooter p{
+    text-align: center;
+}
+.pie{
+    text-decoration: underline;
+}
+.rs{
+    padding: 2%;
+}
+.rs a img{
+    width: 30px;
+}
+.contactos{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contacto{
+    padding: 2%;
+    
+}
+.contacto a img{
+    width: 30px;
+   
+}
+
+nav {
+    grid-area: nav;
+}
+
+aside {
+    grid-area: aside;
+}
+
+section {
+    grid-area: section;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+main {
+
+    display: grid;
+    /* Genera una rejilla de 4 filas x 4 columnas */
+    grid-template-areas:
+        "header header header header header"
+        "nav nav nav nav nav"
+        "section section section section aside"
+        "footer footer footer footer footer";
+}
